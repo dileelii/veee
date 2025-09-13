@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 350px;
+}
+
+.navbar li {
+  color: white;
+  cursor: pointer;
+}
+
+/* Titles */
+.title {
+  margin: 30px 0;
+  background: white;
+  color: black;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Position Section */
+.position-section {
+  margin-top: 30px;
+}
+
+.position-box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+
+.relative-box {
+  width: 120px;
+  height: 120px;
+  background: limegreen;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 15px #fff;
+}
+
+.absolute-box {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  background: red;
+  top: -20px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.absolute-box.round {
+  border-radius: 50px;
+}
+
+/* Information Section */
+.info-section {
+  margin: 50px 0;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-card {
+  background: #661111;
+  padding: 20px;
+  width: 330px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.info-card h2 {
+  margin-bottom: 10px;
+  color: white;
+  width: 330px;
+}
+
+.info-card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
